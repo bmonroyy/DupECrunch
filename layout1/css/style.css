@@ -1,0 +1,95 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav {
+  width: 15%;
+  float: left;
+  height: 800px;
+  font-size: 20px;
+}
+
+nav a {
+  color: grey;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  color: grey;
+  text-decoration: none;
+}
+
+main {
+  width: 50%;
+  float: left;
+}
+
+main img {
+  width: 100%;
+}
+
+aside {
+  height: 800px;
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+}
+
+aside > section > span + h2 {
+  border-top: 1px solid gray;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.eCrunch {
+  width: 20%;
+}
+
+.uno {
+  float: left;
+  width: 28%;
+  margin-left: 15%;
+}
+
+.dos {
+  float: left;
+  width: 28%;
+}
+
+.tres {
+  float: left;
+  width: 28%;
+}
